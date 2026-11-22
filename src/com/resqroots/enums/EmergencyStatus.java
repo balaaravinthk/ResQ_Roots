@@ -1,4 +1,10 @@
 package com.resqroots.enums;
 
-public class EmergencyStatus {
+public enum EmergencyStatus {
+    REGISTERED,
+    WAITING,
+    ASSIGNED,
+    IN_PROGRESS,
+    COMPLETED,
+    CANCELLED
 }

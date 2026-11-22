@@ -1,4 +1,7 @@
 package com.resqroots.enums;
 
-public class ResourceStatus {
+public enum ResourceStatus {
+    AVAILABLE,
+    BUSY,
+    MAINTENANCE
 }

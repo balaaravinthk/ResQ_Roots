@@ -1,4 +1,8 @@
 package com.resqroots.enums;
 
-public class Severity {
+public enum Severity {
+    CRITICAL,
+    HIGH,
+    MEDIUM,
+    LOW
 }

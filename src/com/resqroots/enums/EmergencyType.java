@@ -1,4 +1,8 @@
 package com.resqroots.enums;
 
-public class EmergencyType {
+public enum EmergencyType {
+    MEDICAL,
+    ROAD_ACCIDENT,
+    FIRE,
+    NATURAL_DISASTER
 }
